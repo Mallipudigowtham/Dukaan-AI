@@ -1,0 +1,17 @@
+{
+  "short_name": "DukaanAI",
+  "name": "DukaanAI - Smart Kirana Ledger & Stock Assistant",
+  "description": "Voice-first and photo-first ledger, stock and credit assistant for small kirana shops in India. Speak it or Snap it.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFF8F1",
+  "theme_color": "#FF7A1A",
+  "display": "standalone",
+  "orientation": "portrait"
+}

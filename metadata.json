@@ -1,0 +1,6 @@
+{
+  "name": "DukaanAI - Smart Kirana Ledger & Stock Assistant",
+  "description": "Voice and photo-first digital ledger, stock alerts, unsold inventory detection, and record authenticity evaluation for kirana stores.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

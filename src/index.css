@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+:root {
+  --brand: #FF7A1A;
+  --brand-dark: #E05F00;
+  --accent: #12B76A;
+  --danger: #F04438;
+  --warn: #F79009;
+  --ink: #1D2433;
+  --muted: #667085;
+  --bg: #FFF8F1;
+  --surface: #FFFFFF;
+  --border: #F1E4D6;
+  --hero-grad: linear-gradient(135deg, #FF7A1A 0%, #FF9F43 50%, #FFC371 100%);
+  --shadow-brand: 0 8px 24px rgba(255, 122, 26, 0.18);
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Telugu', 'Noto Sans Tamil', sans-serif;
+}
+
+[data-theme="dark"] {
+  --brand: #FF8F3D;
+  --brand-dark: #FF7A1A;
+  --accent: #17D078;
+  --danger: #F95C50;
+  --warn: #F9A028;
+  --ink: #F4F6FA;
+  --muted: #94A3B8;
+  --bg: #0F1420;
+  --surface: #182033;
+  --border: #26314A;
+  --hero-grad: linear-gradient(135deg, #E05F00 0%, #FF7A1A 60%, #FF9F43 100%);
+  --shadow-brand: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, .font-heading, .brand-number {
+  font-family: var(--font-heading);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+[data-theme="dark"] .glass {
+  background: rgba(24, 32, 51, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.3); opacity: 0.2; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+@keyframes wave-bar {
+  0%, 100% { height: 6px; }
+  50% { height: 28px; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes scan-line {
+  0% { transform: translateY(0%); }
+  50% { transform: translateY(100%); }
+  100% { transform: translateY(0%); }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.animate-scan-line {
+  animation: scan-line 2.2s ease-in-out infinite;
+}
+
+.shimmer-loading {
+  background: linear-gradient(90deg, rgba(240,240,240,0.4) 25%, rgba(255,255,255,0.8) 50%, rgba(240,240,240,0.4) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+[data-theme="dark"] .shimmer-loading {
+  background: linear-gradient(90deg, rgba(38,49,74,0.4) 25%, rgba(56,71,105,0.8) 50%, rgba(38,49,74,0.4) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Touch Targets: minimum 52px */
+.touch-target {
+  min-height: 52px;
+  min-width: 52px;
+}
+
+/* Scrollbar hide */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

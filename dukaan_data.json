@@ -1,0 +1,336 @@
+{
+  "shops": [
+    {
+      "id": "shop-demo",
+      "owner_name": "Ramesh Kumar",
+      "shop_name": "Sri Lakshmi Kirana Store",
+      "phone": "9876543210",
+      "password_hash": "demo123",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "district": "Chennai Central",
+      "pincode": "600001",
+      "address_line": "14 Bazaar Road",
+      "shop_type": "kirana",
+      "gstin": "33AAAAA0000A1Z5",
+      "preferred_language": "te",
+      "logo_emoji": "🏪",
+      "opening_hours": "7:00 AM - 10:00 PM",
+      "created_at": "2026-10-01T00:00:00.000Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "item-1",
+      "shop_id": "shop-demo",
+      "name": "Sona Masoori Rice",
+      "unit": "kg",
+      "unit_price": 60,
+      "current_stock": 20,
+      "low_stock_threshold": 15,
+      "aliases": [
+        "rice",
+        "chawal",
+        "biyyam",
+        "arisi"
+      ]
+    },
+    {
+      "id": "item-2",
+      "shop_id": "shop-demo",
+      "name": "Aashirvaad Sharbati Atta",
+      "unit": "kg",
+      "unit_price": 45,
+      "current_stock": 30,
+      "low_stock_threshold": 10,
+      "aliases": [
+        "atta",
+        "wheat",
+        "godhumai",
+        "godhuma pindi"
+      ]
+    },
+    {
+      "id": "item-3",
+      "shop_id": "shop-demo",
+      "name": "Madhu Crystal Sugar",
+      "unit": "kg",
+      "unit_price": 44,
+      "current_stock": 25,
+      "low_stock_threshold": 12,
+      "aliases": [
+        "sugar",
+        "cheeni",
+        "shakkar",
+        "panchadara",
+        "sarkarai"
+      ]
+    },
+    {
+      "id": "item-4",
+      "shop_id": "shop-demo",
+      "name": "Tata Salt",
+      "unit": "packet",
+      "unit_price": 28,
+      "current_stock": 40,
+      "low_stock_threshold": 15,
+      "aliases": [
+        "salt",
+        "namak",
+        "uppu"
+      ]
+    },
+    {
+      "id": "item-5",
+      "shop_id": "shop-demo",
+      "name": "Toor Dal Grade-A",
+      "unit": "kg",
+      "unit_price": 165,
+      "current_stock": 8,
+      "low_stock_threshold": 10,
+      "aliases": [
+        "toor dal",
+        "dal",
+        "kandi pappu",
+        "thuvaram paruppu",
+        "arhar dal"
+      ]
+    },
+    {
+      "id": "item-6",
+      "shop_id": "shop-demo",
+      "name": "Fortune Sunflower Oil (1L)",
+      "unit": "packet",
+      "unit_price": 140,
+      "current_stock": 5,
+      "low_stock_threshold": 10,
+      "aliases": [
+        "oil",
+        "tel",
+        "sunflower oil",
+        "noone",
+        "ennai"
+      ]
+    },
+    {
+      "id": "item-7",
+      "shop_id": "shop-demo",
+      "name": "Amul Taaza Milk (500ml)",
+      "unit": "packet",
+      "unit_price": 32,
+      "current_stock": 6,
+      "low_stock_threshold": 12,
+      "aliases": [
+        "milk",
+        "doodh",
+        "paalu",
+        "paal"
+      ]
+    },
+    {
+      "id": "item-8",
+      "shop_id": "shop-demo",
+      "name": "Tata Tea Gold (500g)",
+      "unit": "packet",
+      "unit_price": 260,
+      "current_stock": 14,
+      "low_stock_threshold": 6,
+      "aliases": [
+        "tea",
+        "chai",
+        "tea powder",
+        "chaaya"
+      ]
+    },
+    {
+      "id": "item-9",
+      "shop_id": "shop-demo",
+      "name": "Parle-G Biscuits",
+      "unit": "packet",
+      "unit_price": 10,
+      "current_stock": 60,
+      "low_stock_threshold": 20,
+      "aliases": [
+        "biscuits",
+        "parle g",
+        "biscuit"
+      ]
+    },
+    {
+      "id": "item-10",
+      "shop_id": "shop-demo",
+      "name": "Mysore Sandal Soap",
+      "unit": "packet",
+      "unit_price": 45,
+      "current_stock": 18,
+      "low_stock_threshold": 8,
+      "aliases": [
+        "soap",
+        "sabun",
+        "sabbu"
+      ]
+    },
+    {
+      "id": "item-11",
+      "shop_id": "shop-demo",
+      "name": "Everest Turmeric Powder",
+      "unit": "packet",
+      "unit_price": 42,
+      "current_stock": 22,
+      "low_stock_threshold": 8,
+      "aliases": [
+        "turmeric",
+        "haldi",
+        "pasupu",
+        "manjal"
+      ]
+    },
+    {
+      "id": "item-12",
+      "shop_id": "shop-demo",
+      "name": "Fresh Bellary Onions",
+      "unit": "kg",
+      "unit_price": 35,
+      "current_stock": 50,
+      "low_stock_threshold": 15,
+      "aliases": [
+        "onion",
+        "pyaz",
+        "ullipayalu",
+        "vengayam"
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1",
+      "shop_id": "shop-demo",
+      "name": "Ramesh Sharma",
+      "phone": "9876543211"
+    },
+    {
+      "id": "cust-2",
+      "shop_id": "shop-demo",
+      "name": "Suresh Babu",
+      "phone": "9848012345"
+    },
+    {
+      "id": "cust-3",
+      "shop_id": "shop-demo",
+      "name": "Lakshmi Devi",
+      "phone": "9912345678"
+    },
+    {
+      "id": "cust-4",
+      "shop_id": "shop-demo",
+      "name": "Karthik Raja",
+      "phone": "9700123456"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1",
+      "shop_id": "shop-demo",
+      "timestamp": "2026-10-06T09:30:00.000Z",
+      "type": "credit",
+      "item_id": "item-1",
+      "item": "Sona Masoori Rice",
+      "quantity": 5,
+      "unit": "kg",
+      "customer_id": "cust-1",
+      "customer": "Ramesh Sharma",
+      "amount": 300
+    },
+    {
+      "id": "tx-2",
+      "shop_id": "shop-demo",
+      "timestamp": "2026-10-06T11:45:00.000Z",
+      "type": "credit",
+      "item_id": "item-5",
+      "item": "Toor Dal Grade-A",
+      "quantity": 2,
+      "unit": "kg",
+      "customer_id": "cust-1",
+      "customer": "Ramesh Sharma",
+      "amount": 330
+    },
+    {
+      "id": "tx-3",
+      "shop_id": "shop-demo",
+      "timestamp": "2026-10-07T14:15:00.000Z",
+      "type": "payment",
+      "item_id": null,
+      "item": null,
+      "quantity": null,
+      "unit": null,
+      "customer_id": "cust-1",
+      "customer": "Ramesh Sharma",
+      "amount": 200
+    },
+    {
+      "id": "tx-4",
+      "shop_id": "shop-demo",
+      "timestamp": "2026-10-07T16:20:00.000Z",
+      "type": "credit",
+      "item_id": "item-6",
+      "item": "Fortune Sunflower Oil (1L)",
+      "quantity": 2,
+      "unit": "packet",
+      "customer_id": "cust-2",
+      "customer": "Suresh Babu",
+      "amount": 280
+    },
+    {
+      "id": "tx-5",
+      "shop_id": "shop-demo",
+      "timestamp": "2026-10-08T10:00:00.000Z",
+      "type": "sale",
+      "item_id": "item-1",
+      "item": "Sona Masoori Rice",
+      "quantity": 10,
+      "unit": "kg",
+      "customer_id": null,
+      "customer": "Walk-in",
+      "amount": 600
+    },
+    {
+      "id": "tx-6",
+      "shop_id": "shop-demo",
+      "timestamp": "2026-10-08T12:30:00.000Z",
+      "type": "sale",
+      "item_id": "item-3",
+      "item": "Madhu Crystal Sugar",
+      "quantity": 3,
+      "unit": "kg",
+      "customer_id": null,
+      "customer": "Walk-in",
+      "amount": 132
+    },
+    {
+      "id": "tx-7",
+      "shop_id": "shop-demo",
+      "timestamp": "2026-10-08T15:45:00.000Z",
+      "type": "credit",
+      "item_id": "item-8",
+      "item": "Tata Tea Gold (500g)",
+      "quantity": 1,
+      "unit": "packet",
+      "customer_id": "cust-3",
+      "customer": "Lakshmi Devi",
+      "amount": 260
+    },
+    {
+      "id": "tx-8",
+      "shop_id": "shop-demo",
+      "timestamp": "2026-10-09T08:15:00.000Z",
+      "type": "sale",
+      "item_id": "item-7",
+      "item": "Amul Taaza Milk (500ml)",
+      "quantity": 4,
+      "unit": "packet",
+      "customer_id": null,
+      "customer": "Walk-in",
+      "amount": 128
+    }
+  ]
+}
